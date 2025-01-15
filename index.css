@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+
+.container{
+    border: 1px solid lightslategray ;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    left: 40%;
+}
+input {
+    border: none;     
+    outline: none;
+    padding: 10px;      
+    font-size: 14px; 
+    width: 200px; 
+    margin-top: 5px;
+    font-family:cursive;
+   
+
+}
+.input, .password{
+    border: 1px solid lightslategray;
+    width: 250px;
+    margin-left: 20px;
+}
+.password{
+    margin-top: 5px;    
+}
+#password{
+    width: 200px;
+}
+
+.insta-name{
+    font-family:cursive;
+    font-size: 40px;
+    position: relative;
+    left: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    cursor:context-menu;
+}
+.button{
+    width: 250px;
+    height:35px ;
+    margin-left: 20px;
+    background-color: rgb(94, 164, 239);
+    color: white;
+    border-radius: 5px;
+    border: 0px solid white;
+    margin-top: 10px;
+}
+.button:hover{
+    color: white;
+    background-color: blue;
+}
+.or{
+    padding: 30px 140px;
+}
+.fb{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: small;
+    cursor: pointer;
+}
+.fb-down{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:15px;
+    cursor: pointer;
+}
+.bottom-container{
+    border: 1px solid lightslategray ;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 300px;
+    height:25px;
+    position: relative;
+    left: 40%;
+    bottom: 10px;
+}
+.bottom-matter{
+    padding-left: 40px;
+}
+a{
+    text-decoration: none;
+    color:rgb(28, 154, 222) ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.gta{
+   padding-left: 50%;
+}
+.img-cont{
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 15px;
+    width: 300px;
+    height:25px;
+    position: relative;
+    left: 40%;
+    bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.img{
+    width: 150px;
+    height: 50px;
+    position: relative;
+    bottom: 10px;   
+}
+.password{
+    display: flex;
+}
+#password{
+    margin-right: 20px;
+}
+#button{
+    background-color: white;
+    color: black;
+    border: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 30px;
+
+}
+.bottom-links{
+    padding-left: 7%;
+}
+.bot-link-1, .bot-link-2{
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    justify-content: center;
+}
+.link{
+    text-decoration: none;
+    color: rgb(86, 85, 85);
+}
+.link:hover{
+    text-decoration: underline;
+}
+select{
+    border: none;
+    width: 65px;
+    color: rgb(86, 85, 85);
+}
